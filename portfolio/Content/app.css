@@ -1,0 +1,96 @@
+body {
+    font-family:roboto;
+    color:darkgrey;
+    padding-top:90px;
+    position:relative;
+}
+h1 {
+    color:cornflowerblue;
+}
+.profile-pic{
+    padding-top:100px;
+}
+.zoom{
+    zoom:90%
+}
+
+.navbar {
+    margin-bottom: 0px;
+    padding: 30px 15px;
+    -webkit-transition: all 0.5s ;
+    transition:all 0.5s;
+}
+.navbar-inverse {
+    background-image: linear-gradient(blue,cornflowerblue);
+    border-color: #152b7a;
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #000;
+    }
+.navbar-brand{
+    color:black;
+}
+
+
+.shaker4pic{
+    width:240px;
+    height:360px;
+}
+
+
+.content-filler{
+    min-height:300px;
+}
+.cbp-af-header-shrink{
+    padding-top:5px;
+    padding-bottom:5px;
+    opacity:0.9;
+}
+footer{
+    background-image:linear-gradient(cornflowerblue,blue);
+    text-align:center;
+    padding:50px;
+    color:snow;
+
+}
+.fill-screen{
+    background-size:cover;
+    background-position:center;
+}
+
+
+.about-me-text {
+    font-size:large;
+    color: cornflowerblue;
+    background-color:black;
+    text-align:center;
+}
+.about-me-row {
+    position: relative;
+    color: white;
+}
+
+.profile-pic {
+    z-index: 1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+a:hover, a:focus {
+    color: #2a6496;
+    text-decoration:none;
+}
+
+.skills-row{
+    background-color:#cfcfcf;
+    color:white;
+}
+
+.tech-skills {
+    background-color:#cfcfcf;
+    color:white;
+}
