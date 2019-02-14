@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>The Dragon Menu</title>
+    <link href="Content/Menu.css" rel="stylesheet" />
+    <script src="Script/Menu.js"></script>
+</head>
+<body>
+    <div class="topnav">
+        <img class="logo" src="images/dragon logo.png" />
+        <h1 class="dragon">THE DRAGON</h1>
+        <div class="navLinks">
+            <a href="index.html">HOME</a>
+            <a href="menu.html">MENU</a>
+            <a href="services.html">SERVICES</a>
+            <a href="contact.html">CONTACT RESERVATIONS</a>
+
+        </div>
+        <div class=" resposive">
+            <!-- The overlay -->
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <img src="images/dragon logo.png" />
+                    <p>THE DRAGON</p>
+                    <a class="nav" href="index.html">HOME</a>
+                    <a class="nav" href="menu.html">MENU</a>
+                    <a class="nav" href="services.html">SERVICES</a>
+                    <a class="nav" href="contact.html">CONTACT</a>
+                    <a class="nav" href="contact.html">RESERVATION</a>
+                </div>
+
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span onclick="openNav()">
+                <img src="images/Hamburger_icon.svg" />
+            </span>
+
+
+        </div>
+        <div class="top-right">
+            <p>True oriental taste and flavour.</p>
+        </div>
+    </div>
+    <div class="setMenu">
+        <h1>see images of our menus down below</h1>
+        <h1>Our Set Menus</h1>
+        <h2>set meal for two</h2>
+        <p>£15</p>
+        <p>
+            chicken sweet corn soup<br />
+            stir-fried beef in black bean sauce<br />
+            sweet and sour chicken<br />
+            mixed vegetables<br />
+            egg fried rice
+        </p>
+        <h2>set meal for three</h2>
+        <p>£20</p>
+        <p>
+            crab sweet corn soup<br />
+            stir-friend beef with vegetables<br />
+            sweet and sour chicken<br />
+            sliced duck with pineapples<br />
+            mixed vegetables<br />
+            yang chow fried rice
+        </p>
+        <h2>set meal for four </h2>
+        <p>£30</p>
+        <p>
+            seafood soup<br />
+            stir fried chicken with cashew nuts<br />
+            stirfried beef with oyster sauce<br />
+            sweet and sour king prawns<br />
+            stir fried pork with bolack bean sauce<br />
+            stirfried duck with ginger and spring onions<br />
+            mixed vegetables<br />
+            yang chow fried rice <br />
+        </p>
+    </div>
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="images/chinese-menu-best.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="images/chinesecanteen-drinksmenuinside.png" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="images/chinesecanteen-roastmenu.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="images/chinesecanteen-setmeals.jpg" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/chinese-menu-best.jpg" style="width:100%" onclick="currentSlide(1)" alt="Main Menu">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/chinesecanteen-drinksmenuinside.png" style="width:100%" onclick="currentSlide(2)" alt="Drinks">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/chinesecanteen-roastmenu.jpg" style="width:100%" onclick="currentSlide(3)" alt="Premium Meat Dishes">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/chinesecanteen-setmeals.jpg" style="width:100%" onclick="currentSlide(4)" alt="Special Set Meals">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <button class="open-button" onclick="openForm()">book now</button>
+        <div class="form-popup" id="myForm">
+            <form class="form-container">
+                <h1>BOOK</h1>
+
+                <label for="fname">NAME</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="guests">NUMBER OF GUESTS</label>
+                <input type="number" id="guests" name="guests" placeholder="how many">
+
+                <label for="time">TIME(between 12:00 and 23:00)</label>
+                <input type="time" id="time" name="time" placeholder="">
+
+                <label for="fname">PHONE NUMBER</label>
+                <input type="text" id="fname" name="firstname" placeholder="">
+
+                <button type="submit" class="btn">BOOK</button>
+                <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+    </footer>
+    <script src="Script/form.js"></script>
+    <script src="Script/navbar.js"></script>
+</body>
+</html>

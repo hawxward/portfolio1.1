@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>The Dragon</title>
+    <link href="Content/chinese.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+    <div class="title-image">
+        <img class="backgroundImageTop" src="images/charles-deluvio-271645-unsplash.png" />
+
+        <div class="top-left logo">
+            <img src="images/dragon logo.png" />
+        </div>
+        <div class="topnav-right top-right" id="myTopnav">
+
+
+            <a class="nav" href="index.html">HOME</a>
+            <a class="nav" href="menu.html">MENU</a>
+            <a class="nav" href="services.html">SERVICES</a>
+            <a class="nav" href="contact.html">CONTACT</a>
+            <a class="nav" href="contact.html">RESERVATION</a>
+
+
+
+
+        </div>
+        <div class=" resposive">
+            <!-- The overlay -->
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <img src="images/dragon logo.png" />
+                    <p>THE DRAGON</p>
+                    <a class="nav" href="index.html">HOME</a>
+                    <a class="nav" href="menu.html">MENU</a>
+                    <a class="nav" href="services.html">SERVICES</a>
+                    <a class="nav" href="contact.html">CONTACT</a>
+                    <a class="nav" href="contact.html">RESERVATION</a>
+                </div>
+
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span onclick="openNav()">
+                <img src="images/Hamburger_icon.svg" />
+            </span>
+
+
+        </div>
+        <div class="bottom-left">
+            <h1>THE</h1>
+            <h1>DRAGON</h1>
+        </div>
+        <div class="bottom-right">
+            <h3>True oriental</h3>
+            <h3>taste and flavour.</h3>
+        </div>
+    </div>
+
+    <div class="about">
+        <img class="backgroundImage" src="images/cuisine-delicious-dinner-1571077.jpg" />
+        <div class="about-text">
+            <p>
+                It started eighteen years ago when the first Dragon resturant opened. It proved so popular that today The Dragon has grown to over 25 venues spanning Hong Kong, London and Beijing. Each restaurant and bar encompasses the founding philosophy - serving exquisite dishes using the freshest produce, presented with style and in buzzing environments.
+
+                Come and experience The Dragon.
+            </p>
+        </div>
+
+
+
+    </div>
+    <section class="eventNgallery">
+        <div class="events">
+            <h2>EVENTS</h2>
+            <p>
+                <strong>Gong Hey Fat Choi</strong>
+                <br />
+                Join in with the Chinese New Year celebrations.
+                This year we will be welcoming in the year of the Pig.
+                <br />
+                The year of the Pig starts from 5th February 2019 lasting
+                to 24th January 2020.
+            </p>
+            <p>
+                As a tradition for Chinese New Year, there will
+                be a lion dance performance to frighten any bad
+                spirits and to bring in good luck to all.
+                <br />
+                Our chef will put together a special food menu to
+                symbolise good health, fortune and prosperity.
+            </p>
+            <img class="pig" src="images/pig.png" />
+
+
+        </div>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/charles-koh-365288-unsplash.jpg" style="width:100%">
+                <div class="text">Our Top Reviewed Dish, Pork Ramen</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/alisher-sharip-117976-unsplash.png" style="width:100%">
+                <div class="text1">Try Our Hwangcha Tea</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="images/louis-hansel-1142065-unsplash.png" style="width:100%">
+                <div class="text">Beautifully Prepared Dishes</div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <button class="open-button" onclick="openForm()">book now</button>
+        <div class="form-popup" id="myForm">
+            <form class="form-container">
+                <h1>BOOK</h1>
+
+                <label for="fname">NAME</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="guests">NUMBER OF GUESTS</label>
+                <input type="number" id="guests" name="guests" placeholder="how many">
+
+                <label for="time">TIME(between 12:00 and 23:00)</label>
+                <input type="time" id="time" name="time" placeholder="">
+
+                <label for="fname">PHONE NUMBER</label>
+                <input type="text" id="fname" name="firstname" placeholder="">
+
+                <button type="submit" class="btn">BOOK</button>
+                <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+    </footer>
+    <script src="Scripts/navbar.js"></script>    
+    <script src="Scripts/parallax.js"></script>
+    <script src="Scripts/form.js"></script>
+</body>
+</html>

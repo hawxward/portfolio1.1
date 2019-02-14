@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>The Dragon Contact</title>
+    <link href="Content/Menu.css" rel="stylesheet" />
+    <link href="Content/contact.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="topnav">
+        <img class="logo" src="images/dragon logo.png" />
+        <h1 class="dragon">THE DRAGON</h1>
+        <div class="navLinks">
+            <a href="index.html">HOME</a>
+            <a href="menu.html">MENU</a>
+            <a href="services.html">SERVICES</a>
+            <a href="contact.html">CONTACT RESERVATIONS</a>
+        </div>
+        <div class=" resposive">
+            <!-- The overlay -->
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <img src="images/dragon logo.png" />
+                    <p>THE DRAGON</p>
+                    <a class="nav" href="index.html">HOME</a>
+                    <a class="nav" href="menu.html">MENU</a>
+                    <a class="nav" href="services.html">SERVICES</a>
+                    <a class="nav" href="contact.html">CONTACT</a>
+                    <a class="nav" href="contact.html">RESERVATION</a>
+                </div>
+
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span onclick="openNav()">
+                <img src="images/Hamburger_icon.svg" />
+            </span>
+
+
+        </div>
+        <div class="top-right">
+            <p>True oriental taste and flavour.</p>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <h3>BOOK A TABLE</h3>
+            <form action="action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">NAME</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="number">NUMBER</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id=" number" name="number" placeholder="phone number.." />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="guests">number of guests</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="guests" name="guests" placeholder="how many">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="time">TIME</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="time" id="time" name="time" placeholder="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="date">DATE</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="date" id="date" name="date" placeholder="" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="occation">OCCATION</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="occation" name="occation">
+                            <option value="a la carte">A La Carte</option>
+                            <option value="birthday">Birthday</option>
+                            <option value="anniversary">Anniversary</option>
+                            <option value="lunch">Lunch</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">SUBJECT</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <div class="container1">
+            <h3>CONTACT US</h3>
+            <form action="action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">NAME</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">EMAIL</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your EMail">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">SUBJECT</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="subject" name="subject" placeholder="subject">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="message">MESSAGE</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="SUBMIT">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="Script/navbar.js"></script>
+</body>
+</html>

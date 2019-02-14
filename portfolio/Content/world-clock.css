@@ -1,0 +1,36 @@
+﻿h1{
+    color:white;
+}
+h3{
+    color:white;
+}
+
+.title{
+    text-align:center;
+}
+
+.mapcol{
+    text-align:center;
+    height:100%;
+   
+}
+
+.clock{
+    text-align:center;
+}
+
+
+
+#map {
+    height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#333;
+}
+.select2-dropdown{
+    color:black;
+}

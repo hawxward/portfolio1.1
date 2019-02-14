@@ -15,13 +15,13 @@ h1 {
 }
 
 .navbar {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding: 30px 15px;
     -webkit-transition: all 0.5s ;
     transition:all 0.5s;
 }
 .navbar-inverse {
-    background-image: linear-gradient(blue,cornflowerblue);
+    background-image: linear-gradient(blue,#8913aa);
     border-color: #152b7a;
 }
 
@@ -48,7 +48,7 @@ h1 {
     opacity:0.9;
 }
 footer{
-    background-image:linear-gradient(cornflowerblue,blue);
+    background-image:linear-gradient(#8913aa,blue);
     text-align:center;
     padding:50px;
     color:snow;
@@ -61,14 +61,20 @@ footer{
 
 
 .about-me-text {
-    font-size:large;
-    color: cornflowerblue;
-    background-color:black;
-    text-align:center;
+    font-size: large;
+    color: black;
+    background-image: linear-gradient(#8913aa,blue);
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 800px;
 }
 .about-me-row {
     position: relative;
     color: white;
+    text-align:center;
 }
 
 .profile-pic {
