@@ -1,12 +1,8 @@
-﻿h1{
-    color:white;
-}
-h3{
-    color:white;
-}
+﻿
 
 .title{
     text-align:center;
+    color:orange;
 }
 
 .mapcol{
@@ -18,8 +14,12 @@ h3{
 .clock{
     text-align:center;
 }
-
-
+.clock h3{
+    color:orange;
+}
+.mapcol h3{
+    color:orange;
+}
 
 #map {
     height: 100%;
