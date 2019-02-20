@@ -1,31 +1,25 @@
-﻿h1{
-    color:white;
-}
-h3{
-    color:white;
-}
+﻿
 
 .title{
     text-align:center;
     color:orange;
 }
-.clock h3{
-    color:orange;
-}
+
 .mapcol{
     text-align:center;
     height:100%;
    
 }
-.mapcol h3{
-    color:orange;
-}
 
 .clock{
     text-align:center;
 }
-
-
+.clock h3{
+    color:orange;
+}
+.mapcol h3{
+    color:orange;
+}
 
 #map {
     height: 100%;
