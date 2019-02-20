@@ -1,11 +1,10 @@
 body {
-    font-family:roboto;
-    color:darkgrey;
-    padding-top:90px;
-    position:relative;
+    font-family: PenultimateLight;
+    color: #4c5c72;
+    position: relative;
 }
 h1 {
-    color:cornflowerblue;
+    color: #9bbbce;
 }
 .profile-pic{
     padding-top:100px;
@@ -21,17 +20,33 @@ h1 {
     transition:all 0.5s;
 }
 .navbar-inverse {
-    background-image: linear-gradient(blue,#8913aa);
-    border-color: #152b7a;
+    background-color: transparent;
+    border-color: transparent;
 }
 
     .navbar-inverse .navbar-nav > li > a {
-        color: #000;
+        color:black;
     }
-.navbar-brand{
-    color:black;
+    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover {
+        background-color: #a1294d;
+    }
+    .navbar-nav > .active > a:hover {
+        color: blue;
+    }
+.navbar-brand {
+    color: black;
+    padding:0px;
 }
-
+    .navbar-brand h3 {
+        color: black;
+        margin-top: 0px;
+        padding: 15px;
+        background-color: #81235a;
+    }
+.navbar-right {
+    font-size: 17px;
+    background-color: #81235a;
+}
 
 .shaker4pic{
     width:240px;
@@ -47,12 +62,11 @@ h1 {
     padding-bottom:5px;
     opacity:0.9;
 }
-footer{
-    background-image:linear-gradient(#8913aa,blue);
-    text-align:center;
-    padding:50px;
-    color:snow;
-
+footer {
+    background-color: #9bbbce;
+    text-align: center;
+    padding: 50px;
+    color: snow;
 }
 .fill-screen{
     background-size:cover;
@@ -63,18 +77,19 @@ footer{
 .about-me-text {
     font-size: large;
     color: black;
-    background-image: linear-gradient(#8913aa,blue);
+    background-color: #9bbbce;
     text-align: center;
     margin: auto;
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 800px;
+    top: 120px;
 }
 .about-me-row {
     position: relative;
     color: white;
     text-align:center;
+    min-height:600px;
 }
 
 .profile-pic {
@@ -91,12 +106,17 @@ a:hover, a:focus {
     text-decoration:none;
 }
 
-.skills-row{
-    background-color:#cfcfcf;
-    color:white;
+.skills-row {
+    background-color: #4c5c72;
+    color: white;
 }
 
 .tech-skills {
-    background-color:#cfcfcf;
+    background-color: #4c5c72;
+    color: white;
+}
+
+#workexperiance{
+    background-color:#4c5c72;
     color:white;
 }

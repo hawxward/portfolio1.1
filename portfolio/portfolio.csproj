@@ -161,6 +161,9 @@
     <Content Include="images\Hamburger_icon.svg" />
     <Content Include="images\louis-hansel-1142065-unsplash.png" />
     <Content Include="images\pig.png" />
+    <Content Include="images\Screenshot_2019-02-20 The Dragon%281%29.jpg" />
+    <Content Include="images\Screenshot_2019-02-20 The Dragon.jpg" />
+    <Content Include="images\Untitled-1.png" />
     <Content Include="menu.html" />
     <Content Include="obj\Debug\portfolio.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\portfolio.dll" />
