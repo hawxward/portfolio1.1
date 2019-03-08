@@ -64,10 +64,23 @@ h1 {
 }
 footer {
     background-color: #9bbbce;
-    text-align: center;
-    padding: 50px;
-    color: snow;
+    
+    
 }
+.top-button-right{
+    position:absolute;
+    right:2%;
+
+}
+.top-button-left{
+    position:absolute;
+    left:2%;
+}
+    .contact {
+        text-align: center;
+        padding: 50px;
+        color: snow;
+    }
 .fill-screen{
     background-size:cover;
     background-position:center;
