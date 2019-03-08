@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: "akaPosse.ttf";
+    font-family: "optima";
     font-style: normal;
     src: url(../fonts/OPTIMA.TTF); /*if IE */
     src: local("optima"), url("../fonts/OPTIMA.TTF") format("truetype"); /* non-IE */
@@ -9,7 +9,7 @@
 
 
 .hawk {
-    height: 22px;
+    height: 22px; 
     width: 673px;
     top: 44%;
     /* margin: 90px; */
