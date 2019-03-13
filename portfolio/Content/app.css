@@ -159,6 +159,17 @@ a:hover, a:focus {
     background-color:#4c5c72;
     color:white;
 }
+.contacts{
+    text-align:center;
+}
+.arow-right{
+    position:absolute;
+    right:2%;
+}
+.arow-left{
+    position:absolute;
+    left:2%;
+}
 
 
 /*svg animations*/
