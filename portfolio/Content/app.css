@@ -11,7 +11,7 @@
 .hawk {
     height: 22px; 
     width: 673px;
-    top: 44%;
+    top: 30%;
     /* margin: 90px; */
     left: 43%;
     position: absolute;
@@ -111,7 +111,9 @@ footer {
     background-size:cover;
     background-position:center;
 }
-
+.panel-title{
+    text-align:center;
+}
 
 .about-me-text {
     font-size: large;
@@ -126,15 +128,15 @@ footer {
 }
 .about-me-row {
     position: relative;
-    color: white;
-    text-align:center;
-    min-height:600px;
+    background-color: #ec4d61;
+    text-align: center;
+    min-height: 700px;
 }
 
 .profile-pic {
     z-index: 1;
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
 }
