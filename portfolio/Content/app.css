@@ -324,7 +324,7 @@ a:hover, a:focus {
     list-style: none;
     padding: 20px 0 20px;
     position: relative;
-    width:50%;
+    width:100%;
 }
 
 .timeline:before {
