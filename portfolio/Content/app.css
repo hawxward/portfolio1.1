@@ -26,7 +26,7 @@
 
 body {
     font-family: optima;
-    color: #4c5c72;
+    color:black;
     position: relative;
 }
 h1 {
@@ -140,7 +140,9 @@ footer {
     left: 30%;
     transform: translate(-50%, -50%);
 }
-
+.profile-pic a {
+    color:black;
+}
 
 a:hover, a:focus {
     color: #2a6496;
