@@ -156,15 +156,13 @@ a:hover, a:focus {
     margin-right:-30px;
     background-color:#4c5c72;
 }
-.skillsTitle{
-    b
-}
+
 .skills-row {
     background-color: #4c5c72;
     color: white;
 }
 
-}
+
 .tech-skills {
     background-color: #4c5c72;
     color: white;
@@ -314,7 +312,7 @@ a:hover, a:focus {
 /*Work exper timeline css*/
 .WorkTimeline{
     float:left;
-    width:45%;
+    width:0%;
 }
 .EducationTimeline{
     float:right;
@@ -325,7 +323,7 @@ a:hover, a:focus {
     list-style: none;
     padding: 20px 0 20px;
     position: relative;
-    width:100%;
+    width:85%;
 }
 
 .timeline:before {
@@ -365,7 +363,7 @@ a:hover, a:focus {
 }
 
 .timeline > li > .timeline-panel {
-  width: 40%;
+  width: 47%;
   float: left;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
