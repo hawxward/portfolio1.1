@@ -1,329 +1,311 @@
-
 @font-face {
-    font-family: "optima";
-    font-style: normal;
-    src: url(../fonts/OPTIMA.TTF); /*if IE */
-    src: local("optima"), url("../fonts/OPTIMA.TTF") format("truetype"); /* non-IE */
+  font-family: "optima";
+  font-style: normal;
+  src: url(../fonts/OPTIMA.TTF); /*if IE */
+  src: local("optima"), url("../fonts/OPTIMA.TTF") format("truetype"); /* non-IE */
 }
-
-
 
 .hawk {
-    height: 22px; 
-    width: 673px;
-    top: 30%;
-    /* margin: 90px; */
-    left: 43%;
-    position: absolute;
+  height: 22px;
+  width: 673px;
+  top: 30%;
+  /* margin: 90px; */
+  left: 43%;
+  position: absolute;
 }
-
-
-
-
-
-
-
 
 body {
-    font-family: optima;
-    color:black;
-    position: relative;
+  font-family: optima;
+  color: black;
+  position: relative;
 }
 h1 {
-    color: #9bbbce;
+  color: #9bbbce;
 }
-.profile-pic{
-    padding-top:100px;
+.profile-pic {
+  padding-top: 100px;
 }
-.zoom{
-    zoom:90%
+.zoom {
+  zoom: 90%;
 }
 
 .navbar {
-    margin-bottom: 0;
-    padding: 30px 15px;
-    -webkit-transition: all 0.5s ;
-    transition:all 0.5s;
+  margin-bottom: 0;
+  padding: 30px 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .navbar-inverse {
-    background-color: transparent;
-    border-color: transparent;
+  background-color: transparent;
+  border-color: transparent;
 }
 
-    .navbar-inverse .navbar-nav > li > a {
-        color:black;
-    }
-    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover {
-        background-color: #a1294d;
-    }
-    .navbar-nav > .active > a:hover {
-        color: blue;
-    }
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #a1294d;
+}
+.navbar-nav > .active > a:hover {
+  color: blue;
+}
 .navbar-brand {
-    color: black;
-    padding:0px;
+  color: black;
+  padding: 0px;
 }
-    .navbar-brand h3 {
-        color: black;
-        margin-top: 0px;
-        padding: 15px;
-        background-color: #81235a;
-    }
+.navbar-brand h3 {
+  color: black;
+  margin-top: 0px;
+  padding: 15px;
+  background-color: #81235a;
+}
 .navbar-right {
-    font-size: 17px;
-    background-color: #81235a;
+  font-size: 17px;
+  background-color: #81235a;
 }
 
-.shaker4pic{
-    width:240px;
-    height:360px;
+.shaker4pic {
+  width: 240px;
+  height: 360px;
 }
 
-
-.content-filler{
-    min-height:300px;
+.content-filler {
+  min-height: 300px;
 }
-.cbp-af-header-shrink{
-    padding-top:5px;
-    padding-bottom:5px;
-    opacity:0.9;
+.cbp-af-header-shrink {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  opacity: 0.9;
 }
 footer {
-    background-color: #9bbbce;
-    clear:both;
-    
-    
+  background-color: #9bbbce;
+  clear: both;
 }
-.top-button-right{
-    position:absolute;
-    right:2%;
-
+.top-button-right {
+  position: absolute;
+  right: 2%;
 }
-.top-button-left{
-    position:absolute;
-    left:2%;
+.top-button-left {
+  position: absolute;
+  left: 2%;
 }
-    .contact {
-        text-align: center;
-        padding: 50px;
-        color: snow;
-    }
-.fill-screen{
-    background-size:cover;
-    background-position:center;
+.contact {
+  text-align: center;
+  padding: 50px;
+  color: snow;
 }
-.panel-title{
-    text-align:center;
+.fill-screen {
+  background-size: cover;
+  background-position: center;
+}
+.panel-title {
+  text-align: center;
 }
 
 .about-me-text {
-    font-size: large;
-    color: black;
-    background-color: #9bbbce;
-    text-align: center;
-    margin: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 120px;
+  font-size: large;
+  color: black;
+  background-color: #9bbbce;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 120px;
 }
 .about-me-row {
-    position: relative;
-    background-color: #ec4d61;
-    text-align: center;
-    min-height: 700px;
+  position: relative;
+  background-color: #ec4d61;
+  text-align: center;
+  min-height: 700px;
 }
 
 .profile-pic {
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
 }
 .profile-pic a {
-    color:black;
+  color: black;
 }
 
-a:hover, a:focus {
-    color: #2a6496;
-    text-decoration:none;
+a:hover,
+a:focus {
+  color: #2a6496;
+  text-decoration: none;
 }
 .skillsTitleDiv {
-    text-align: center;
-    
-    margin-left: -15px;
-    margin-right:-30px;
-    background-color:#4c5c72;
+  text-align: center;
+
+  margin-left: -15px;
+  margin-right: -30px;
+  background-color: #4c5c72;
 }
 
 .skills-row {
-    background-color: #4c5c72;
-    color: white;
+  background-color: #4c5c72;
+  color: white;
 }
-
 
 .tech-skills {
-    background-color: #4c5c72;
-    color: white;
+  background-color: #4c5c72;
+  color: white;
+}
+.projects-title {
+  text-align: center;
+}
+.recent-projects {
+  justify-content: center;
 }
 
-#workexperiance{
-    background-color:#4c5c72;
-    color:white;
-    margin-left: -15px;
-    margin-right: -15px;
+#workexperiance {
+  background-color: #4c5c72;
+  color: white;
+  margin-left: -15px;
+  margin-right: -15px;
 }
-.contacts{
-    text-align:center;
+.contacts {
+  text-align: center;
 }
-.arow-right{
-    position:absolute;
-    right:2%;
-    bottom:1%
+.arow-right {
+  position: absolute;
+  right: 2%;
+  bottom: 1%;
 }
-.arow-left{
-    position:absolute;
-    left:2%;
-    bottom:1%
+.arow-left {
+  position: absolute;
+  left: 2%;
+  bottom: 1%;
 }
-
 
 /*svg animations*/
 
-    .html5,.css3,.javascript,.bootstrap,.jquery{
-        animation-play-state:paused;
-    }
+.html5,
+.css3,
+.javascript,
+.bootstrap,
+.jquery {
+  animation-play-state: paused;
+}
 
-    
-
-.html5{
-    animation-name:tridown2;
-    animation-duration:5s;
-    animation-iteration-count:1;
-   
-
-
+.html5 {
+  animation-name: tridown2;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
 }
 .css3 {
-    animation-name: tridown3;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    
+  animation-name: tridown3;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
 }
 .javascript {
-    animation-name: tridown4;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    
+  animation-name: tridown4;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
 }
 .bootstrap {
-    animation-name: tridown5;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    
+  animation-name: tridown5;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
 }
 
 .jquery {
-    animation-name: tridown6;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-   
+  animation-name: tridown6;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
 }
 
-@keyframes tridown2{
-    0%{
-        opacity:0
-    }
-    20%{
-       opacity:1
-
-    }
-    100%{
-        opacity:1
-    }
-    
+@keyframes tridown2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes tridown3 {
-    0% {
-        opacity: 0
-    }
-    20% {
-        opacity: 0
-    }
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
 
-    40% {
-        opacity: 1
-    }
+  40% {
+    opacity: 1;
+  }
 
-    100% {
-        opacity: 1
-    }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes tridown4 {
-    0% {
-        opacity: 0
-    }
-    40% {
-        opacity: 0
-    }
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
 
-    60% {
-        opacity: 1
-    }
+  60% {
+    opacity: 1;
+  }
 
-    100% {
-        opacity: 1
-    }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes tridown5 {
-    0%{
-        opacity:0
-    }
-    60% {
-        opacity: 0
-    }
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
 
-    80% {
-        opacity: 1
-    }
+  80% {
+    opacity: 1;
+  }
 
-    100% {
-        opacity: 1
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes tridown6 {
-    0%{
-        opacity:0
-    }
-    80% {
-        opacity: 0
-    }
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
 
-    
-
-    100% {
-        opacity: 1
-    }
+  100% {
+    opacity: 1;
+  }
 }
-
 
 /*Work exper timeline css*/
-.WorkTimeline{
-    float:left;
-    width:0%;
+.WorkTimeline {
+  float: left;
+  width: 0%;
 }
-.EducationTimeline{
-    float:right;
-    width:45%;
+.EducationTimeline {
+  float: right;
+  width: 45%;
 }
 
 .timeline {
-    list-style: none;
-    padding: 20px 0 20px;
-    position: relative;
-    width:85%;
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+  width: 85%;
 }
 
 .timeline:before {
@@ -435,33 +417,33 @@ a:hover, a:focus {
 }
 
 .timeline-badge.primary {
-    background-color: #2e6da4 !important;
+  background-color: #2e6da4 !important;
 }
 
 .timeline-badge.success {
-    background-color: #3f903f !important;
+  background-color: #3f903f !important;
 }
 
 .timeline-badge.warning {
-    background-color: #f0ad4e !important;
+  background-color: #f0ad4e !important;
 }
 
 .timeline-badge.danger {
-    background-color: #d9534f !important;
+  background-color: #d9534f !important;
 }
 
 .timeline-badge.info {
-    background-color: #5bc0de !important;
+  background-color: #5bc0de !important;
 }
 
 .timeline-title {
-    margin-top: 0;
-    color: inherit;
+  margin-top: 0;
+  color: inherit;
 }
 
 .timeline-body > p,
 .timeline-body > ul {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .timeline-body > p + p {
@@ -472,30 +454,30 @@ a:hover, a:focus {
   ul.timeline:before {
     left: 40px;
   }
-  
+
   ul.timeline > li > .timeline-panel {
     width: calc(100% - 90px);
     width: -moz-calc(100% - 90px);
     width: -webkit-calc(100% - 90px);
   }
-  
+
   ul.timeline > li > .timeline-badge {
     left: 15px;
     margin-left: 0;
     top: 16px;
   }
-  
+
   ul.timeline > li > .timeline-panel {
     float: right;
   }
-  
+
   ul.timeline > li > .timeline-panel:before {
     border-left-width: 0;
     border-right-width: 15px;
     left: -15px;
     right: auto;
   }
-  
+
   ul.timeline > li > .timeline-panel:after {
     border-left-width: 0;
     border-right-width: 14px;
