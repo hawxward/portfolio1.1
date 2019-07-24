@@ -187,8 +187,15 @@ a:focus {
 .css3,
 .javascript,
 .bootstrap,
-.jquery {
+.jquery,
+.react {
   animation-play-state: paused;
+}
+
+.react {
+  animation-name: tridown7;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
 }
 
 .html5 {
@@ -218,6 +225,19 @@ a:focus {
   animation-iteration-count: 1;
 }
 
+/*react*/
+@keyframes tridown7 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*html5*/
 @keyframes tridown2 {
   0% {
     opacity: 0;
