@@ -4,14 +4,19 @@
   src: url(../fonts/OPTIMA.TTF); /*if IE */
   src: local("optima"), url("../fonts/OPTIMA.TTF") format("truetype"); /* non-IE */
 }
-
+.--top--{
+  background-color: #ec4d61;
+}
+.profile-pic {
+  margin-top: 25%;
+  
+}
 .hawk {
-  height: 22px;
-  width: 673px;
-  top: 30%;
-  /* margin: 90px; */
-  left: 43%;
-  position: absolute;
+  margin-top: 25%;
+ 
+}
+p{
+  font-size: 19px;
 }
 .name-title{
   font-size: xx-large;
@@ -20,9 +25,10 @@
   padding: 6px 12px;
   border: 1px solid transparent;
     border-radius: 15px;
+    border-color: #357ebd
 }
 #top{
-  max-height: 100vw;
+  height: 100vh;
 }
 body {
   font-family: optima;
@@ -30,11 +36,10 @@ body {
   position: relative;
 }
 h1 {
-  color: #9bbbce;
+  color: black;
 }
-.profile-pic {
-  padding-top: 100px;
-}
+
+
 .zoom {
   zoom: 90%;
 }
@@ -50,15 +55,16 @@ h1 {
   border-color: transparent;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > button > a {
   color: black;
+  font-size: 20px;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover {
   background-color: #a1294d;
 }
 .navbar-nav > .active > a:hover {
-  color: blue;
+  color:black;
 }
 .navbar-brand {
   color: black;
@@ -67,12 +73,19 @@ h1 {
 .navbar-brand h3 {
   color: black;
   margin-top: 0px;
-  padding: 15px;
-  background-color: #81235a;
+  padding: 6px 12px;
+  border-radius: 10px;
+  background-color: #428bca;
+  border: 1px solid;
+  border-color: #357ebd;
+}
+
+.nav>li{
+  margin:0px 2px;
 }
 .navbar-right {
   font-size: 17px;
-  background-color: #81235a;
+  background-color:;
 }
 
 .shaker4pic {
@@ -112,7 +125,10 @@ footer {
 .panel-title {
   text-align: center;
 }
-
+.about-me-title{
+  text-align: center;
+  background-color:#428bca
+}
 .about-me-text {
   font-size: large;
   color: black;
@@ -126,18 +142,12 @@ footer {
 }
 .about-me-row {
   position: relative;
-  background-color: #ec4d61;
+  /*background-color: #ec4d61;*/
   text-align: center;
   min-height: 700px;
 }
 
-.profile-pic {
-  z-index: 1;
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-}
+
 .profile-pic a {
   color: black;
 }
@@ -152,7 +162,7 @@ a:focus {
 
   margin-left: -15px;
   margin-right: -30px;
-  background-color: #4c5c72;
+  background-color: #428bca;
 }
 
 .skills-row {
