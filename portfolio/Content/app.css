@@ -36,6 +36,7 @@ h1 {
   border-color: transparent;
 }
 
+
 .navbar-inverse .navbar-nav > li > button > a {
   color: black;
   font-size: 20px;
@@ -494,6 +495,7 @@ a:focus {
 
   ul.timeline > li > .timeline-panel {
     float: right;
+    padding: 10px 5px
   }
 
   ul.timeline > li > .timeline-panel:before {
@@ -508,5 +510,57 @@ a:focus {
     border-right-width: 14px;
     left: -14px;
     right: auto;
+  }
+  .timeline{
+    width:100%;
+  }
+
+  .EducationTimeline {
+    clear: both;
+    width: 100%;
+    background-color: white;
+  }
+  .WorkTimeline {
+    clear: both;
+    width: 100%;
+  }
+  .img-circle {
+    max-width: 100%;
+    margin-top: 10%;
+  }
+  .TitleDiv {
+    margin: 0px;
+  }
+  .title {
+    margin: 0px;
+  }
+  .skills-container {
+    margin: 0px;
+  }
+  .skills-row {
+    margin: 0px;
+  }
+  .navbar {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .row {
+    margin-right: 0px;
+  }
+  .navbar-toggle{
+  margin-right:0px;
+  margin-top:0px;
+  padding:12px 10px;
+  border-radius:10px;
+  background-color: #428bca
+  }
+  .navbar-collapse{
+    background-color: #2e6da4;
+    border: 100px;
+    text-align: center
+    
+  }
+  .educationdiv{
+    display:none;
   }
 }
