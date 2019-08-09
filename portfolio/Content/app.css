@@ -6,6 +6,10 @@
   src: url(../fonts/OPTIMA.TTF); /*if IE */
   src: local("optima"), url("../fonts/OPTIMA.TTF") format("truetype"); /* non-IE */
 }
+
+#educationmobile{
+  display: none;
+}
 .title {
   text-align: center;
   background-color: #428bca;
@@ -73,10 +77,10 @@ h1 {
   background-color: #ec4d61;
 }
 .profile-pic {
-  margin-top: 25%;
+  margin-top: 15%;
 }
 .hawk {
-  margin-top: 25%;
+  margin-top:15%;
 }
 .name-title {
   font-size: xx-large;
@@ -555,12 +559,21 @@ a:focus {
   background-color: #428bca
   }
   .navbar-collapse{
-    background-color: #2e6da4;
+    background-color:rgba(0, 0, 0, 0.5);
     border: 100px;
     text-align: center
     
   }
   .educationdiv{
     display:none;
+  }
+  #educationmobile{
+    display:block;
+  }
+  #collapse1{
+    margin-left: 30px;
+  }
+  .hawk{
+    margin-top:0px;
   }
 }
