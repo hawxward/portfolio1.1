@@ -107,6 +107,10 @@ h1 {
 /*skills*/
 .skills-svg {
   margin: 20px 0px;
+  overflow:visible;
+}
+svg:not(:root){
+  overflow:visible;
 }
 /*projects*/
 .shaker4pic {
@@ -195,6 +199,11 @@ a:focus {
 .react {
   animation-play-state: paused;
 }
+.clickme{
+  animation-name: tridown1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
 
 .react {
   animation-name: tridown7;
@@ -228,7 +237,19 @@ a:focus {
   animation-duration: 4s;
   animation-iteration-count: 1;
 }
+/*clickme*/
+@keyframes tridown1{
 
+	0%, 20%, 50%, 80%, 100% {
+    transform :translateY(0);
+  }
+	40% {
+     transform:translateY(-30px);
+  }
+	60% {
+     transform:translateY(-15px);
+  }
+}
 /*react*/
 @keyframes tridown7 {
   0% {
