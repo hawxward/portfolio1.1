@@ -15,6 +15,7 @@
 .title {
   text-align: center;
   background-color: #99B898;
+  z-index: 5;
 
 }
 .cv-row{
@@ -80,7 +81,12 @@ h1 {
 }
 /*top*/
 .--top-- {
-  background-color: #FECEAB;
+  background-image:url(../images/Untitled-2.jpg);
+  margin-left:-200px;
+  margin-right:-200px;
+  overflow: hidden;
+  z-index: -5;
+  background-attachment: fixed;
 }
 .profile-pic {
   margin-top: 15%;
